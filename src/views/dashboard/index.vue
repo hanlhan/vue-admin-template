@@ -29,6 +29,8 @@
         </template>
       </el-table-column>
       <el-table-column label="日期" width="110" align="center">
+
+        
         <template slot-scope="scope">
           {{ scope.row.pageviews }}
         </template>
